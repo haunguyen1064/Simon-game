@@ -51,3 +51,26 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+.rules {
+  position: absolute;
+  top: 207px;
+  left: 2%;
+  width: 25%;
+  background-color: #334257;
+  color: #FEF2BF;
+  border-radius: 17px;
+  text-align: left;
+  line-height: 1.5;
+}
+.rules li {
+  margin-top: 1em;
+}
+.ul li{
+  margin-top: 0;
+}
+.rules-title {
+  text-align: center;
+  margin-top: 0.7em;
+  font-size: 1.3em;
+  text-decoration: underline;
+}

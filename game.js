@@ -30,6 +30,7 @@ function nextSequence() {
 /*step 4*/
 var userChosenColour;
 $(".btn").click(function() {
+  if (level === 0) {return}
 userChosenColour = this.id;
 userClickedPattern.push(userChosenColour);
 playSound(userChosenColour);
